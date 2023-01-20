@@ -1,0 +1,111 @@
+{
+	"id": "71aed4e7-c63b-46ce-9c2e-04df598cb4ef",
+	"name": "1 Postman Collection",
+	"timestamp": "2023-01-20T16:01:06.412Z",
+	"collection_id": "22928799-e8642249-e244-4fb9-a1b9-27705542ad22",
+	"folder_id": 0,
+	"environment_id": "22928799-5739db9d-3b86-4af0-8cbe-ebc21ece7efc",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3aa73e05-1638-4000-ab9f-0d4f7b9739c8",
+			"name": "TC2",
+			"url": "https://reqres.in/api/users/2",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f42c0bf5-3df7-4fd6-a0eb-aeb0059b1ba6",
+			"name": "TC1",
+			"url": "https://reqres.in/api/users/2",
+			"time": 261,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				261
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b814bd58-752b-48e1-a687-8971b9f8eab1",
+			"name": "TC3",
+			"url": "https://reqres.in/api/users/2",
+			"time": 261,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				261
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 801,
+	"collection": {
+		"requests": [
+			{
+				"id": "3aa73e05-1638-4000-ab9f-0d4f7b9739c8",
+				"method": "PATCH"
+			},
+			{
+				"id": "f42c0bf5-3df7-4fd6-a0eb-aeb0059b1ba6",
+				"method": "PATCH"
+			},
+			{
+				"id": "b814bd58-752b-48e1-a687-8971b9f8eab1",
+				"method": "PATCH"
+			}
+		]
+	}
+}
